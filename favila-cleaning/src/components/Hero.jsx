@@ -4,7 +4,7 @@ const Hero = () => {
       className="relative min-h-screen bg-cover bg-center pt-44"
       style={{
         backgroundImage:
-          "url('/public/photo2.jpg')",
+          "url('/photo2.jpg')",
       }}
     >
       {/* Dark overlay */}
