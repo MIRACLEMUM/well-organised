@@ -1,10 +1,11 @@
+import photo2 from "/photo2.jpg"; 
+
 const Hero = () => {
   return (
     <section
       className="relative min-h-screen bg-cover bg-center pt-44"
       style={{
-        backgroundImage:
-          "url('/photo2.jpg')",
+        backgroundImage: `url(${photo2})`,
       }}
     >
       {/* Dark overlay */}
